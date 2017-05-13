@@ -1,0 +1,2034 @@
+/* font-family: "NeoSansProRegular"; */
+@font-face {
+    font-family: "NeoSansProRegular";
+    src: url("../fonts/NeoSansProBold/NeoSansProRegular.eot");
+    src: url("../fonts/NeoSansProBold/NeoSansProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NeoSansProBold/NeoSansProRegular.woff") format("woff"),
+    url("../fonts/NeoSansProBold/NeoSansProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NeoSansProBold"; */
+@font-face {
+    font-family: "NeoSansProBold";
+    src: url("../fonts/NeoSansProBold/NeoSansProBold.eot");
+    src: url("../fonts/NeoSansProBold/NeoSansProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NeoSansProBold/NeoSansProBold.woff") format("woff"),
+    url("../fonts/NeoSansProBold/NeoSansProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+/* font-family: "PTSansBold"; */
+@font-face {
+    font-family: "PTSansBold";
+    src: url("../fonts/PTSansBold/PTSansBold.eot");
+    src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
+    url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    position: relative;
+    font-family: "NeoSansProRegular";
+    color: #11466b;
+    font-size: 15px;
+}
+.wrapper{
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+}
+ul{
+    margin: 0;
+}
+.list-inline{
+    margin: 0;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-stat{
+    position: static;
+}
+/*-----HEADER----*/
+.header{
+    padding-top: 10px;
+}
+.bx-viewport ul li{
+    left: 0;
+    top: 0;
+}
+.menu-xs{
+    position: absolute;
+    top: 56px;
+    left: 0;
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding-top: 15px;
+    z-index: 9999;
+}
+.menu-xs a{
+    position: relative;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #e6f4f8;
+    color: #58595b;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 25px;
+}
+.menu-xs>ul>li>a:active,
+.menu-xs>ul>li>a:focus{
+    background: #006a9a;
+    color: #fff;
+}
+.menu-xs>ul li>ul{
+    display: none;
+    background: #ceeaf2;
+    list-style-type: disc;
+}
+.menu-xs a.fishing{
+    line-height: 21px;
+}
+.line-sm-wh:after{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 285px;
+    display: block;
+    width: 12px;
+    border-bottom: 2px solid #fff;
+}
+.header-content-top{
+    position: relative;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 0 1px 1px #e6e7e8;
+    border-bottom: 10px solid #fff;
+}
+.nav-header-language{
+    position: absolute;
+    right: 30px;
+    top: -5px;
+    width: 118px;
+}
+.language-header,
+.menu-header{
+    font-size: 0;
+}
+.menu-header li a{
+    padding: 0 25px;
+    font-family: "PTSansBold";
+    font-size: 15px;
+    color: #58595b;
+}
+.menu-header li a:hover,
+.active-menu-header{
+    background: #016a9c;
+    color: #fff;
+}
+.language-header li a{
+    font-size: 14px;
+    color: #016a9c;
+    padding: 5px 5px 0;
+}
+.language-header li a span{
+    border-bottom: 1px dashed;
+}
+.language-header li a:hover span,
+.active-language-header span{
+    border-bottom: 0 !important;
+    color: #58595b;
+}
+.menu-header li a,
+.language-header li a{
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+.img-slide-header{
+    width: 100%;
+    height: auto;
+}
+.header-content-bottom{
+    background:  url(../images/bg/wave-1.jpg) no-repeat center bottom,
+        url(../images/bg/wave.png) no-repeat;
+    background-size: 100% auto, 100% 100%;
+    padding: 20px 0 179px;
+}
+.header-content-bottom h1{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 61px 0 40px;
+}
+.header-content-bottom small{
+    display: block;
+    width: 80%;
+    font-size: 19px;
+    line-height: 34px;
+    margin: 0 auto 77px;
+    letter-spacing: .007em;
+}
+.btn-orange,
+.btn-blue{
+    display: inline-block;
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.btn-orange{
+    background: #eea809;
+}
+.btn-blue{
+    background: #11466b;
+}
+.btn-blue:hover{
+    background: #0091bd;
+}
+.btn-orange:hover{
+    background: #ffb40b;
+}
+/*===--- MAIN ----===*/
+/*--- depth-350 ---*/
+.depth-350{
+    background: url(../images/bg/wave-2.jpg) no-repeat center bottom , 
+        url(../images/bg/flock-big.png) no-repeat 116px 420px,
+        url(../images/bg/flock-small.png) no-repeat 1130px 720px #e4f4f8;
+    background-size: 100% auto, auto, auto;
+    padding-bottom: 181px;
+}
+.bg-flock-small{
+    background: url(../images/bg/flock-small.png) no-repeat 1236px 36px;
+}
+.data-depth{
+    position: relative;
+    font-size: 25px;
+    color: #0091bd;
+    padding-bottom: 8px;
+    margin: 46px 0;
+}
+.data-depth:after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -433px;
+    display: block;
+    width: 1000px;
+    border-top: 1px solid #72c2da;
+}
+.depth h2{
+    font-size: 12px;
+    color: #0091bd;
+    margin: 82px 0 46px;
+    padding: 1px;
+}
+.icn-cod,
+.icn-crab,
+.icn-squid{
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+.icn-cod{
+    top: -31px;
+    margin-left: -125px;
+    width: 250px;
+    height: 78px;
+    background: url(../images/page-index/cod.png) no-repeat;
+}
+.name-news a{
+    font-size: 17px;
+    color: #016a9c;
+    text-decoration: underline;
+    letter-spacing: .035em;
+    font-weight: bold;
+}
+.name-news{
+    margin: 36px 0 20px;
+}
+.name-news-1,
+.name-news-2{
+    margin-top: 64px;
+}
+.name-news-3{
+    margin-top: 27px;
+}
+.name-news a:hover{
+    text-decoration: none;
+}
+.description-news{
+    font-size: 12px;
+    padding-right: 26px;
+    letter-spacing: 0.009em;
+    line-height: 21px;
+}
+.icn-frame{
+    position: relative;
+    display: block;
+}
+.icn-hexagon-1{
+    left: 80px;
+    width: 234px;
+    height: 272px;
+    background: url(../images/bg/hexagon-1.png) no-repeat,
+        url(../images/page-index/news-1.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.icn-hexagon-2{
+    left: 20px;
+    width: 242px;
+    height: 282px;
+    background: url(../images/bg/hexagon-2.png) no-repeat,
+        url(../images/page-index/news-2.jpg) no-repeat -70px -18px;
+    background-size: 100% 100%, cover;
+}
+.icn-hexagon-3{
+    top: -55px;
+    left: 70px;
+    width: 235px;
+    height: 292px;
+    background: url(../images/bg/hexagon-3.png) no-repeat,
+        url(../images/page-index/news-3.jpg) no-repeat -38px -20px;
+    background-size: 100% 100%, auto auto;
+}
+.icn-hexagon-4{
+    top: 0;
+    right: 0;
+    margin: auto;
+    width: 235px;
+    height: 292px;
+    background: url(../images/bg/hexagon-4.png) no-repeat,
+        url(../images/page-index/news-3.jpg) no-repeat -38px -20px;
+    background-size: 100% 100%, auto auto;
+}
+.all-news{
+    margin-top: 8px;
+}
+/*--- depth-1500 ---*/
+.view-production-section-1,
+.contacts-section-1,
+.recipes-section-1,
+.photo-section-1,
+.fleet-section-1,
+.news-section-1{
+    background: #e4f4f8 url(../images/bg/wave-2.jpg) no-repeat center bottom ;
+    background-size: 100% auto;
+    padding: 50px 0 181px;
+}
+.recipes-section-2,
+.video-section-2,
+.photo-section-2,
+.news-section-2,
+.depth-1500{
+    background: #ceeaf1 url(../images/bg/wave-3.jpg) no-repeat center bottom;
+    background-size: 100% auto;
+    padding: 50px 0 232px;
+}
+.recipes-section-3,
+.video-section-3,
+.photo-section-3,
+.fleet-section-3,
+.news-section-3{
+    background: #a4d7e8;
+    padding: 50px 0 181px;
+}
+.icn-crab{
+    top: -61px;
+    margin-left: -87px;
+    width: 175px;
+    height: 112px;
+    background: url(../images/page-index/crab.png) no-repeat;
+}
+.info-box{
+    display: inline-block;
+    width: 256px;
+    vertical-align: top;
+    margin: 89px 0 0;
+}
+.info-data{
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    width: 144px;
+    height: 166px;
+    background: url(../images/bg/hexagon-and-hexagon-white.png) no-repeat;
+    padding-top: 66px;
+    color: #fff;
+    font-size: 14px;
+    text-indent: -10px;
+    margin: 0;
+}
+.info-number{
+    font-size: 37px;
+    line-height: 40px;
+}
+.info-data span{
+    display: block;
+}
+.info-name{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    margin: 50px 0 20px;
+}
+.info-description{
+    font-size: 13px;
+    padding: 0 8px;
+}
+/*--- depth-2500 ---*/
+.depth-2500{
+    background: #a4d7e8;
+    padding: 40px 0 1px;
+}
+.icn-squid{
+    top: -50px;
+    margin-left: -117px;
+    width: 235px;
+    height: 105px;
+    background: url(../images/page-index/squid.png) no-repeat;
+}
+.depth-2500-h3{
+    color: #016a9c;
+    font-size: 35px;
+    margin-bottom: 58px;
+    padding-left: 15px;
+    letter-spacing: .007em;
+}
+.wr-content-depth-2500 p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+.wr-content-depth-2500 .descr p:last-child{
+    margin-bottom: 83px;
+}
+.wr-content-depth-2500 .btn-blue,
+.wr-content-depth-2500 .btn-orange{
+    width: 245px;
+    margin-right: 23px;
+    margin-bottom: 65px;
+    vertical-align: top;
+}
+.wr-btn{
+    padding-left: 4px;
+}
+.icn-hexagon-big{
+    position: relative;
+    left: -80px;
+    top: 14px;
+    display: block;
+    width: 419px;
+    height: 419px;
+    background: url(../images/bg/hexagon-big.png) no-repeat, url(../images/page-index/news-3.jpg) no-repeat;
+    background-size: 100% 100%,110% auto;
+    z-index: 0;
+}
+.icn-hexagon-small{
+    position: absolute;
+    bottom: 0;
+    left: 56px;
+    display: block;
+    width: 234px;
+    height: 205px;
+    background: url(../images/page-index/food.png) no-repeat;
+    z-index: 1;
+}
+.wr-icn{
+    position: static;
+}
+/*------ FOOTER -----*/
+.footter-content{
+    background: url(../images/bg/bg-footer.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 80px 0 45px;
+}
+.nav-footer-menu{
+    margin-bottom: 19px;
+}
+.nav-footer-menu:after{
+    content: '';
+    display: block;
+    width: 980px;
+    border-bottom: 1px solid #bdc6c8;
+    margin: 0 auto;
+}
+.nav-footer-menu ul{
+    width: 175px;
+    text-align: left;
+    padding: 0 0 38px;
+    margin: 0 auto;
+}
+.nav-footer-menu ul li:first-child{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    margin-bottom: 15px;
+}
+.nav-footer-menu ul li a{
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 0;
+}
+.nav-footer-menu ul li a:hover{
+    text-decoration: underline;
+}
+.logo-footer{
+    margin-bottom: 14px;
+}
+.address-footer{
+    margin-bottom: 31px;
+}
+.address-footer p{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.button-social-network a{
+    display: inline-block;
+    width: 31px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: url(../images/bg/icn-social-network.png) no-repeat;
+    color: #11466b;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 15px;
+}
+.button-social-network a:hover{
+    background: url(../images/bg/icn-social-network-hover.png) no-repeat;
+}
+.button-social-network a:last-child{
+    margin-right: 0;
+}
+.btn-up{
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 49px;
+    height: 57px;
+    background: url(../images/footer/up.png) no-repeat;
+    z-index: 9999;
+}
+.btn-up:hover{
+    background: url(../images/footer/up-hover.png) no-repeat;
+}
+/*--- hexahedron ---*/
+.hexahedron span{
+    position: absolute;
+    display: block;
+    z-index: 5;
+}
+.hexahedron-1{
+    width: 199px;
+    height: 313px;
+    top: 18px;
+    left: -60px;
+    background: url(../images/bg/hexagon.png) no-repeat 100%;
+}
+.hexahedron-2{
+    width: 288px;
+    height: 416px;
+    top: 430px;
+    right: -80px;
+    background: url(../images/bg/hexagon-right-1.png) no-repeat 100%;
+}
+.hexahedron-3{
+    width: 256px;
+    height: 265px;
+    top: 688px;
+    left: -80px;
+    background: url(../images/bg/hexagon-left-2.png) no-repeat 100%;
+}
+.hexahedron-4{
+    width: 437px;
+    height: 437px;
+    top: 1145px;
+    right: -128px;
+    transform: scale(-1, 1);
+    background: url(../images/bg/hexagon-left-3.png) no-repeat 100%;
+}
+.hexahedron-5{
+    width: 161px;
+    height: 205px;
+    top: 1572px;
+    right: 132px;
+    background: url(../images/bg/hexagon-right-3.png) no-repeat 100%;
+}
+.hexahedron-6{
+    width: 437px;
+    height: 437px;
+    bottom: 744px;
+    left: -81px;
+    background: url(../images/bg/hexagon-left-3.png) no-repeat 100%;
+}
+.hexahedron-7{
+    width: 161px;
+    height: 205px;
+    bottom: 548px;
+    left: 175px;
+    background: url(../images/bg/hexagon-left-4.png) no-repeat 100%;
+}
+.hexahedron-8{
+    bottom: 656px;
+    left: 22px;
+    width: 288px;
+    height: 288px;
+    background: url(../images/bg/hexagon-left-5.png) no-repeat 100%;
+}
+.hexahedron-9{
+    top: 1365px;
+    right: -25px;
+    width: 288px;
+    height: 288px;
+    background: url(../images/bg/hexagon-left-5.png) no-repeat 100%;
+}
+.hexahedron-11{
+    width: 288px;
+    height: 416px;
+    transform: scale(-1, 1);
+    bottom: 378px;
+    left: -72px;
+    background: url(../images/bg/hexagon-right-1.png) no-repeat 100%;
+}
+/*====---- PAGE COMPANY ----====*/
+.company-section-1{
+    background: url(../images/bg/wave-2.jpg) no-repeat center bottom,
+        url(../images/bg/flock-small.png) no-repeat 1312px 496px #e4f4f8;
+    background-size: 100% auto, auto;
+    
+    padding: 45px 0 163px;
+}
+.content-section-1{
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    padding-bottom: 20px;
+}
+.contacts-section-2,
+.fleet-section-2,
+.company-section-2{
+    background: #ceeaf1;
+    
+    padding-bottom: 65px;
+}
+.header-content-bottom small.company-small{
+    width: 70%;
+    margin-bottom: 0;
+}
+.company-section-1 .column-right{
+    padding-left: 42px;
+    padding-right: 105px;
+}
+.company-section-1 .column-left{
+    padding-left: 107px;
+    padding-right: 38px;
+}
+.company-section-2 h2{
+    font-size: 29px;
+    color: #11466b;
+}
+.company-hexahedron .hexahedron-2{
+    top: 166px;
+    right: -14px;
+}
+.company-hexahedron .hexahedron-7{
+    bottom: 456px;
+    left: 160px;
+}
+.company-hexahedron .hexahedron-8{
+    bottom: 656px;
+    left: 22px;
+}
+/*======------ PAGE PRODUCTION ----======*/
+.header-content-bottom .production-h1{
+    margin-top: 49px;
+}
+.production-h-cont-bot{
+    padding-bottom: 157px;
+}
+.header-content-bottom small.production-small{
+    width: 85%;
+    padding: 0 10px;
+}
+.place-production-card{
+    max-width: 960px;
+}
+.production-content{
+    background: #e4f4f8;
+    padding: 20px 0 45px;
+}
+.place-production-card{
+    margin: 0 auto;
+}
+.wr-production-card{
+    position: relative;
+    display: inline-block;
+    width: 310px;
+    min-height: 396px;
+    vertical-align: top;
+}
+.production-card{
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #11466b;
+    text-align: center;
+    transition: .2s;
+}
+.name-production{
+    display: table;
+    width: 100%;
+    height: 56px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+.name-production span{
+    display: table-cell;
+    width: 100%;
+    font-size: 21px;
+    vertical-align: bottom;
+    padding: 0 10px;
+}
+.name-latin-production{
+    font-size: 13px;
+    margin: 0 0 20px;
+}
+.addition-production{
+    background: #e4f4f8;
+    border-radius: 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.production-card:hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #b6d2d9;
+    z-index: 10;
+}
+.recipes-card:hover .name-recipes,
+.production-card:hover .name-production{
+    color: #efa80a;
+    text-decoration: underline;
+}
+.production-card:hover .addition-production{
+    display: block;
+}
+.chionoecetes-japonicus{
+    background: url(../images/page-production/chionoecetes-japonicus.png) no-repeat center;
+}
+.lithodesaequispinus{
+    background: url(../images/page-production/lithodesaequispinus.png) no-repeat center;
+}
+.hippoglossusstenolepis{
+    background: url(../images/page-production/hippoglossusstenolepis.png) no-repeat center;
+}
+.reinhardtius-hippoglossoides{
+    background: url(../images/page-production/reinhardtius-hippoglossoides.png) no-repeat center;
+}
+.atheresthes-evermanni{
+    background: url(../images/page-production/atheresthes-evermanni.png) no-repeat center;
+}
+.albatrossia-pectoralis{
+    background: url(../images/page-production/albatrossia-pectoralis.png) no-repeat center;
+}
+.gadusmacrocephalus{
+    background: url(../images/page-production/gadusmacrocephalus.png) no-repeat center;
+}
+.coryphaenoidesacrolepis{
+    background: url(../images/page-production/coryphaenoidesacrolepis.png) no-repeat center;
+}
+.anoplopoma-fimbria{
+    background: url(../images/page-production/anoplopoma-fimbria.png) no-repeat center;
+}
+.bathyraja-violacea{
+    background: url(../images/page-production/bathyraja-violacea.png) no-repeat center;
+}
+.sebastolobus-macrochir{
+    background: url(../images/page-production/sebastolobus-macrochir.png) no-repeat center;
+}
+.sebastolobusalascanus{
+    background: url(../images/page-production/sebastolobusalascanus.png) no-repeat center;
+}
+.production-card-1:hover .chionoecetes-japonicus{
+    background: url(../images/page-production/chionoecetes-japonicus-hover.png) no-repeat center;
+}
+.production-card-2:hover .lithodesaequispinus{
+    background: url(../images/page-production/lithodesaequispinus-hover.png) no-repeat center;
+}
+.production-card-3:hover .hippoglossusstenolepis{
+    background: url(../images/page-production/hippoglossusstenolepis-hover.png) no-repeat center;
+}
+.production-card-4:hover .reinhardtius-hippoglossoides{
+    background: url(../images/page-production/reinhardtius-hippoglossoides-hover.png) no-repeat center;
+}
+.production-card-5:hover .atheresthes-evermanni{
+    background: url(../images/page-production/atheresthes-evermanni-hover.png) no-repeat center;
+}
+.production-card-6:hover .albatrossia-pectoralis{
+    background: url(../images/page-production/albatrossia-pectoralis-hover.png) no-repeat center;
+}
+.production-card-7:hover .gadusmacrocephalus{
+    background: url(../images/page-production/gadusmacrocephalus-hover.png) no-repeat center;
+}
+.production-card-8:hover .coryphaenoidesacrolepis{
+    background: url(../images/page-production/coryphaenoidesacrolepis-hover.png) no-repeat center;
+}
+.production-card-9:hover .anoplopoma-fimbria{
+    background: url(../images/page-production/anoplopoma-fimbria-hover.png) no-repeat center;
+}
+.production-card-10:hover .bathyraja-violacea{
+    background: url(../images/page-production/bathyraja-violacea-hover.png) no-repeat center;
+}
+.production-card-11:hover .sebastolobus-macrochir{
+    background: url(../images/page-production/sebastolobus-macrochir-hover.png) no-repeat center;
+}
+.production-card-12:hover .sebastolobusalascanus{
+    background: url(../images/page-production/sebastolobusalascanus-hover.png) no-repeat center;
+}
+.icn-production{
+    display: block;
+    width: 100%;
+    height: 170px;
+}
+.addition-production{
+    display: none;
+    text-align: left;
+}
+.production-hexahedron .hexahedron-2{
+    top: 575px;
+    right: -70px;
+}
+/*====---- PAGE NEWS ----====*/
+.header-news{
+    padding-bottom: 140px;
+}
+.news-section-1{
+    padding-top: 36px;
+    padding-bottom: 136px;
+}
+.news-section-2{
+    padding-top: 10px;
+    padding-bottom: 184px;
+}
+.news-section-3{
+    padding-top: 32px;
+    padding-bottom: 87px;
+}
+.news-section-2 .title-news{
+    margin-top: 60px;
+}
+.news-section-3 .title-news{
+    margin-top: 80px;
+}
+.title-news{
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 39px;
+    letter-spacing: 0.045em;
+    margin-top: 40px;
+}
+.wr-descr-news{
+    margin-bottom: 50px;
+}
+.descr-news{
+    margin-top: 30px;
+    line-height: 26px;
+    padding-right: 70px;
+}
+.icn-hexagon-news-1{
+    width: 540px;
+    height: 629px;
+    background: url(../images/bg/hexagon-news-1.png) no-repeat,
+        url(../images/page-news/news-1.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.icn-hexagon-news-2{
+    width: 558px;
+    height: 631px;
+    background: url(../images/bg/hexagon-news-2.png) no-repeat,
+        url(../images/page-news/news-2.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.icn-hexagon-news-3{
+    width: 581px;
+    height: 676px;
+    background: url(../images/bg/hexagon-news-3.png) no-repeat,
+        url(../images/page-news/news-3.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.hexahedron-news .hexahedron-11{
+    bottom: 515px;
+}
+/*=====------ PAGE FLEET ------=====*/
+.header-fleet{
+    padding: 0 0 136px;
+}
+.header-fleet h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.fleet-section-1{
+    padding: 0 0 155px;
+}
+.fleet-section-h2{
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 0.045em;
+    line-height: 39px;
+    margin: 0;
+}
+.clarify,
+.fleet-descr{
+    line-height: 25px;
+    padding: 0 110px;
+    margin-bottom: 25px;
+}
+.fleet-map{
+    margin-top: 58px;
+}
+.our-fleet{
+    width: 950px;
+    margin: 0 auto 40px;
+    font-size: 0;
+    padding: 30px 0;
+}
+.ship{
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: top;
+}
+.wr-photo-gallery:nth-child(3n),
+.ship:nth-child(3n){
+    margin-right: 0px;
+}
+.name-ship{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.employment{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.fleet-hexahedron .hexahedron-2{
+    top: 616px;
+}
+.fleet-hexahedron .hexahedron-3{
+    top: 1164px;
+}
+.fleet-hexahedron .hexahedron-9{
+    top: inherit;
+    bottom: 1954px;
+}
+.fleet-hexahedron .hexahedron-11{
+    bottom: 2685px;
+    left: -28px;
+}
+/*====--- PAGE PHOTO GALLERY ---===*/
+.video-date,
+.photo-date{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.video-descr,
+.photo-descr{
+    font-size: 15px;
+    font-weight: bold;
+    margin:0 0 70px;
+    padding: 0 15px;
+}
+.wr-video-files,
+.wr-photo-gallery{
+    display: inline-block;
+    width: 302px;
+    margin-right: 22px;
+    vertical-align: top;
+}
+.wr-img-video,
+.wr-img-gallery{
+    position: relative;
+    margin-bottom: 25px;
+}
+.btn-video,
+.btn-photo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 75px;
+}
+.btn-photo{
+    width: 99px;
+    height: 114px;
+    background: url(../images/bg/btn-photo.png) no-repeat;
+}
+.btn-photo:hover{
+    background: url(../images/bg/btn-photo-hover.png) no-repeat;
+}
+/*====--- PAGE VIDEO FILES ---===*/
+.photo-section-1,
+.video-section-1{
+    background: url(../images/bg/wave-2.jpg) no-repeat center bottom,
+        url(../images/bg/flock-small.png) no-repeat 1313px 390px #e4f4f8;
+    background-size: 100% auto, auto;
+    padding: 0 0 153px;
+}
+.photo-section-2,
+.video-section-2{
+    padding: 0 0 173px;
+}
+.photo-section-3,
+.video-section-3{
+    padding: 0 0 70px;
+}
+.year-video{
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.choice-year a{
+    display: block;
+    height: 25px;
+    border-bottom: 2px dashed #11466b;
+    color: #11466b;
+    font-size: 19px;
+    margin: 0 15px;
+}
+.choice-year a:hover{
+    border-bottom: 2px dashed transparent;
+    color: #efa80a;
+}
+.header-photo-gallery,
+.header-video-files{
+    padding-bottom: 200px;
+}
+.btn-video{
+    width: 102px;
+    height: 102px;
+    background: url(../images/bg/btn-video.png) no-repeat;
+    text-indent: -9999px;
+}
+.btn-video:hover{
+    background: url(../images/bg/btn-video-hover.png) no-repeat;
+}
+.hexahedron-video .hexahedron-2{
+    top: 164px;
+}
+.hexahedron-video .hexahedron-11{
+    bottom: 1490px;
+    left: 30px;
+}
+/*====---- PAGE RECIPES ----====*/
+.recipes-header-cont-bot{
+    padding-bottom: 146px;
+}
+.header-content-bottom .recipes-small{
+    width: 79%;
+}
+.icn-hexagon-recipes-1{
+    width: 540px;
+    height: 629px;
+    background: url(../images/bg/hexagon-news-1.png) no-repeat,
+        url(../images/page-recipes/recipes-1.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.icn-hexagon-recipes-2{
+    position: relative;
+    width: 558px;
+    height: 631px;
+    background: url(../images/bg/hexagon-news-2.png) no-repeat,
+        url(../images/page-recipes/recipes-2.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.icn-hexagon-recipes-3{
+    width: 581px;
+    height: 676px;
+    background: url(../images/bg/hexagon-news-3.png) no-repeat,
+        url(../images/page-recipes/recipes-3.jpg) no-repeat center 8px;
+    background-size: 100% 100%, cover;
+}
+.recipes-hexahedron .hexahedron-2{
+    top: 166px;
+    right: -15px;
+}
+.name-recipes-h2{
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    padding-right: 70px;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+.list-recipes li:first-child{
+    margin-bottom: 10px;
+}
+.list-recipes li p{
+    margin-bottom: 10px;
+    padding-right: 80px;
+    line-height: 23px;
+}
+.list-recipes li{
+    margin: 0 0 3px;
+}
+.list-recipes{
+    margin-bottom: 25px;
+}
+.recipes-section-1{
+    padding-top: 40px;
+    padding-bottom: 129px;
+}
+.recipes-section-2{
+    padding-top: 10px;
+    padding-bottom: 160px;
+}
+.recipes-section-2 .name-recipes-h2{
+    margin-top: 60px;
+}
+.recipes-section-3{
+    padding-top: 40px;
+    padding-bottom: 84px;
+}
+.recipes-section-3 .name-recipes-h2{
+    margin-top: 80px;
+}
+.pagination-v{
+    font-size: 0;
+    margin-top: 125px;
+}
+.pagination-v ul li a{
+    display: block;
+    width: 35px;
+    height: 41px;
+    line-height: 41px;
+    font-size: 21px;
+    color: #11466b;
+    margin-right: 38px;
+}
+.active-page,
+.pagination-v ul li a:hover{
+    background: url(../images/bg/bg-number-page.png) no-repeat;
+    color: #fff !important;
+}
+.pagination-v ul li:last-child a{
+    margin-right: 0;
+}
+.recipes-hexahedron .hexahedron-7{
+    bottom: 456px;
+    left: 84px;
+}
+.recipes-hexahedron .hexahedron-8{
+    bottom: 656px;
+    left: -50px;
+}
+/*====---- PAGE PRODUCTION VIEW ----====*/
+.header-view-prod{
+    padding-bottom: 228px;
+}
+.header-content-bottom .view-production-h1{
+    margin-bottom: 5px;
+}
+.header-content-bottom .view-production-small{
+    margin-bottom: 70px;
+}
+.slide-small{
+    margin-right: 15px;
+}
+#bx-pager{
+    margin-top: 20px;
+}
+.slider-view-production .bx-wrapper .bx-controls-direction a{
+    display: none;
+}
+.slider-view-production .bx-wrapper img{
+    margin: 0 auto;
+}
+.header-content-bottom h3{
+    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.header-view-prod p{
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 42px;
+    padding-right: 60px;
+}
+.header-view-prod h3{
+    font-weight: bold;
+}
+.slider-view-production{
+    width: 400px;
+}
+.line-blue:after{
+    content: '';
+    display: block;
+    width: 150px;
+    border-top: 1px solid #71c2d9;
+    margin: 25px auto 30px;
+}
+.product-type{
+    min-width: 300px;
+    height: 445px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.variant{
+    display: block;
+    height: 180px;
+}
+.icn-variant-production-1{
+    background: url(../images/page-view-production/variant-production-1.png) no-repeat center;
+}
+.icn-variant-production-2{
+    background: url(../images/page-view-production/variant-production-2.png) no-repeat center;}
+.icn-variant-production-3{
+    background: url(../images/page-view-production/variant-production-3.png) no-repeat center;}
+.icn-variant-production-4{
+    background: url(../images/page-view-production/variant-production-4.png) no-repeat center;}
+.icn-variant-production-5{
+    background: url(../images/page-view-production/variant-production-5.png) no-repeat center;}
+.name-product-type{
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
+.packaging{
+    height: 58px;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    padding: 0 14px;
+}
+.size-range{
+    width: 100%;
+}
+.size-range tr:nth-child(odd){
+    background: #c2e3ed;
+}
+.size-range tr td{
+    font-size: 12px;
+}
+.size-range tr td:first-child{
+    width: 160px;
+    padding: 3px 14px;
+}
+.view-production-section-2{
+    background: url(../images/bg/wave-3.jpg) no-repeat center bottom,
+        url(../images/bg/flock-big.png) no-repeat -77px 500px,
+        url(../images/bg/flock-small.png) no-repeat 1316px 15px #ceeaf1;
+    background-size: 100% auto, auto, auto;
+    
+    padding: 0px 0 216px;
+}
+.view-production-section-3{
+    background: #a4d7e8 url(../images/bg/flock-small.png) no-repeat 130px 277px;
+    padding: 0px 0 77px;
+}
+.descr-sect{
+    width: 70%;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 auto 55px;
+}
+.view-production-section-1{
+    padding: 0 0 106px;
+}
+.name-section{
+    margin: 5px 0 0;
+}
+.name-recipes{
+    font-size: 18px;
+    color: #11466b;
+    font-weight: bold;
+    margin: 26px 0 24px;
+    letter-spacing: 0.03em;
+}
+.wr-recipes-card{
+    display: block;
+    max-width: 464px;
+    padding: 10px 0 0;
+}
+.data-recipes{
+    margin-bottom: 38px;
+}
+.data-recipes ul li>span{
+    display: block;
+    width: 43px;
+    height: 51px;
+    background: url(../images/page-recipes/bg-info-recipes.png) no-repeat;
+    color: #fff;
+}
+.data-recipes ul li{
+    vertical-align: top;
+    text-align: center;
+    margin-right: 7px;
+}
+.cooking-time{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+.cooking-time span{
+    display: block;
+    font-size: 12px;
+    margin-top: -6px;
+}
+.level-difficulty{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.pepper{
+    font-size: 0;
+    padding-top: 15px;
+}
+.icn-pepper{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: url(../images/page-recipes/pepper.png) no-repeat;
+    margin-right: -1px;
+}
+.icn-pepper:first-child{
+    margin-left: -1px;
+}
+.view-production-hexahedron .hexahedron-11{
+    bottom: 455px;
+}
+.view-production-hexahedron .hexahedron-2{
+    top: 105px;
+    right: -50px;
+}
+/*====----- CONTACTS ------====*/
+.header-contact{
+    padding-bottom: 172px;
+}
+.office,
+.location-header{
+    font-size: 19px;
+}
+.location-header{
+    word-spacing: 3px;
+}
+.header-contact address{
+    margin-bottom: 0;
+}
+.contacts-section-1{
+    padding-top: 0;
+    padding-bottom: 210px;
+}
+.contacts-section-1 address ul li{
+    text-align: left;
+    margin-bottom: 4px;
+}
+.contacts-section-1 address h3{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.contacts-section-1 address{
+    display: block;
+    height: 180px;
+    padding-left: 40px;
+}
+.contacts-section-2 h2{
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    letter-spacing: 0.045em;
+}
+.contacts-section-2{
+    padding-bottom: 78px;
+}
+.contacts-hexahedron .hexahedron-2{
+    top: 167px;
+}
+.contacts-hexahedron .hexahedron-11{
+    bottom: 456px;
+    left: -26px;
+}
+address a{
+    color: #32a7ca;
+    text-decoration: underline;
+}
+address a:hover{
+    text-decoration: none;
+}
+.btn-menu{
+    display: block;
+    width: 42px;
+    height: 36px;
+    background: url(../images/header/btn-menu.png) no-repeat center;
+    margin-top: 5px;
+}
+.btn-close{
+    background: url(../images/header/close.png) no-repeat center;
+}
+.title-news span{
+    display: block;
+}
+/*====----- MEDIA -----====*/
+@media screen and (max-width: 1500px){
+.hexahedron-1{
+        left: -95px;
+    }
+    .hexahedron-2{
+        right: -140px;
+    }
+    .hexahedron-3{
+        left: -125px;
+    }
+    .hexahedron-4{
+        right: -250px;
+    }
+    .hexahedron-5{
+        right: 10px;
+    }
+    .hexahedron-6{
+        left: -205px;
+    }
+    .hexahedron-7{
+        left: 50px;
+    }
+    .hexahedron-8{
+        left: -100px;
+    }
+    .hexahedron-9{
+        right: -150px;
+    }
+    .hexahedron-11{
+        left: -200px;
+    }
+    .company-hexahedron .hexahedron-2{
+        right: -100px;
+    }
+    .view-production-hexahedron .hexahedron-2{
+        right: -130px;
+    }
+}
+@media screen and (max-width: 1450px){
+    .data-depth:after{
+        width: 900px;
+    }
+    .depth-350{
+        background-position: center bottom, 70px 420px, 1013px 790px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+     .data-depth:after{
+        width: 850px;
+    }   
+    .hexahedron{
+        display: none;
+    }
+}
+@media screen and (max-width: 1260px){
+    .depth-350{
+        background-position: center bottom, -90px 420px, 1013px 790px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .header-content-bottom .recipes-small{
+        width: 85%;
+    }
+    .wr-video-files:nth-child(2n),
+    .wr-photo-gallery:nth-child(2n){
+        margin-right: 0;
+    }
+    .ship:nth-child(3n){
+        margin-right: 25px;
+    }
+    .ship:nth-child(2n){
+        margin-right: 0;
+    }
+    .our-fleet{
+        width: 100%;
+        text-align: center;
+    }.clarify,
+    .fleet-descr{
+        padding: 0;
+    }
+    .descr-sect{
+        width: 85%;
+    }
+    .logo-header img{
+        margin-right: inherit;
+        margin-left: inherit;
+    }
+    .nav-header-language{
+        position: static;
+    }
+    .data-depth:after{
+        left: -500px;
+    }
+    .header-content-bottom small{
+        width: 100%;
+    }
+    .depth-350{
+        background-position: center bottom, 0px 420px, 870px 730px;
+    }
+    .data-depth:after{
+        width: 850px;
+    }
+    .icn-hexagon-big{
+        top: 106px;
+        left: -54px;
+        width: 350px;
+        height: 350px;
+    }
+    .wr-btn a{
+        width: 240px;
+    }
+    .wr-btn a:last-child{
+        margin-right: 0;
+    }
+    .menu-header li a{
+        padding: 0 17px;
+    }
+    .icn-hexagon-1,
+    .icn-hexagon-3{
+        left: 32px;
+    }
+    .icn-hexagon-2{
+        left: 26px;
+    }
+    .info-box{
+        width: 212px;
+    }
+    .header-content-bottom small.company-small{
+        width: 85%;
+    }
+    .company-section-1 .column-left{
+        padding-left: 15px;
+    }
+    .company-section-1 .column-right{
+        padding-right: 15px;
+    }
+    .icn-hexagon-news-1{
+        width: 470px;
+        height: 559px;
+    }
+    .icn-hexagon-news-2{
+        width: 454px;
+        height: 527px;
+    }
+    .icn-hexagon-news-3{
+        width: 454px;
+        height: 549px;
+    }
+    .icn-hexagon-recipes-3{
+        width: 450px;
+        height: 560px;
+    }
+    .icn-hexagon-recipes-1{
+        width: 454px;
+        height: 531px;
+    }
+    .icn-hexagon-recipes-2{
+        width: 450px;
+        height: 560px;
+    }
+    .contacts-section-1 address{
+        padding-left: 0;
+    }
+    .nav-footer-menu:after{
+        width: 940px;
+    }
+}
+@media screen and (max-width: 991px){
+
+    .title-news span{
+        display: block;
+        margin-left: 20px;
+    }
+    .bx-wrapper .bx-prev,
+    .bx-wrapper .bx-next{
+        display: none;
+    }
+    .icn-hexagon-recipes-3{
+        width: 454px;
+        height: 549px;
+    }
+    .title-news span{
+        display: inline-block;
+    }
+    .descr-news{
+        padding: 0;
+    }
+    .view-production-section-2{
+        background: url(../images/bg/wave-3.jpg) no-repeat center bottom #ceeaf1;
+        background-size: 100% auto;
+        padding: 0px 0 216px;
+    }
+    .descr-sect{
+        width: 100%;
+    }
+    .header-content-bottom small.company-small{
+        width: 100%;
+    }
+    .company-section-1 .column-left{
+        padding-right: 15px;
+    }
+    .company-section-1 .column-right{
+        padding-left: 15px;
+    }
+    .info-box{
+        width: 256px;
+    }
+    .data-depth:after{
+        left: -600px;
+    }
+    .depth-350{
+        background: url(../images/bg/wave-2.jpg) no-repeat center bottom  #e4f4f8;
+        background-size: 100% auto;
+    }
+    .wr-btn{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 22px;
+    }
+    .icn-hexagon-small{
+        display: none;
+    }
+    .wr-content-depth-2500 .btn-blue,
+    .wr-content-depth-2500 .btn-orange{
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .wr-btn a:last-child{
+        margin-bottom: 0;
+    }
+    .wr-btn{
+        margin-bottom: 0;
+    }
+    .depth-2500{
+        padding-bottom: 50px;
+    }
+    .wr-content-depth-2500 .descr p:last-child{
+        margin-bottom: 50px;
+    }
+    .header-content-bottom{
+        padding-bottom: 130px;
+    }
+    .wr-production-card{
+        width: 290px;
+    }
+    .chionoecetes-japonicus {
+        background: url(../images/page-production/chionoecetes-japonicus-hover.png) no-repeat center;
+        
+    }.lithodesaequispinus{
+        background: url(../images/page-production/lithodesaequispinus-hover.png) no-repeat center;
+    }
+    .hippoglossusstenolepis{
+        background: url(../images/page-production/hippoglossusstenolepis-hover.png) no-repeat center;
+    }
+    .reinhardtius-hippoglossoides{
+        background: url(../images/page-production/reinhardtius-hippoglossoides-hover.png) no-repeat center;
+    }
+    .atheresthes-evermanni{
+        background: url(../images/page-production/atheresthes-evermanni-hover.png) no-repeat center;
+    }
+    .albatrossia-pectoralis{
+        background: url(../images/page-production/albatrossia-pectoralis-hover.png) no-repeat center;
+    }
+    .gadusmacrocephalus{
+        background: url(../images/page-production/gadusmacrocephalus-hover.png) no-repeat center;
+    }
+    .coryphaenoidesacrolepis{
+        background: url(../images/page-production/coryphaenoidesacrolepis-hover.png) no-repeat center;
+    }
+    .anoplopoma-fimbria{
+        background: url(../images/page-production/anoplopoma-fimbria-hover.png) no-repeat center;
+    }
+    .bathyraja-violacea{
+        background: url(../images/page-production/bathyraja-violacea-hover.png) no-repeat center;
+    }
+    .sebastolobus-macrochir{
+        background: url(../images/page-production/sebastolobus-macrochir-hover.png) no-repeat center;
+    }
+    .sebastolobusalascanus{
+        background: url(../images/page-production/sebastolobusalascanus-hover.png) no-repeat center;
+    }
+    .icn-production{
+        background-size: 100%;
+        height: 200px;
+    }
+    .name-production span{
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0;
+    }
+    .name-latin-production{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .addition-production ul{
+        padding: 0;
+    }
+    .addition-production li{
+        font-size: 10px;
+    }
+    .wr-production-card a{
+        color: #11466b;
+    }
+    .wr-production-card{
+        min-height: 300px;
+        margin-right: 40px;
+        vertical-align: top;
+    }
+    .wr-production-card:last-child{
+        border-bottom: 0;
+    }
+    .wr-production-card:nth-child(2n){
+        margin-right: 0;
+    }
+    .header-content-bottom small.production-small{
+        margin-bottom: 0;
+    }
+    .name-production{
+        height: inherit;
+    }
+    .slider-view-production{
+        margin-bottom: 30px;
+    }
+    .view-production-section-3 {
+        background: #a4d7e8;
+    }
+    .icn-hexagon-news-1{
+        background: url(../images/page-news/news-1.jpg) no-repeat center;
+    }
+    .icn-hexagon-news-2{
+        background: url(../images/page-news/news-2.jpg) no-repeat center;
+    }
+    .icn-hexagon-news-3{
+        background: url(../images/page-news/news-3.jpg) no-repeat center;
+    }
+    .icn-frame{
+        margin: 0 auto;
+    }
+    .news-section-1 .title-news,
+    .news-section-2 .title-news,
+    .news-section-3 .title-news{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .wr-news-btn-blue{
+        text-align: center;
+    }
+    .icn-hexagon-recipes-1{
+        width: 540px;
+        height: 629px;
+        background: url(../images/page-recipes/recipes-1.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .icn-hexagon-recipes-2{
+        position: relative;
+        width: 558px;
+        height: 631px;
+        background: url(../images/page-recipes/recipes-2.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .icn-hexagon-recipes-3{
+        width: 581px;
+        height: 676px;
+        background: url(../images/page-recipes/recipes-3.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .recipes-section-1,
+    .recipes-section-2,
+    .recipes-section-3{
+        padding-top: 40px;
+    }
+    .header-content-bottom .recipes-small{
+        width: 100%;
+    }
+    .recipes-section-1 .name-recipes-h2,
+    .recipes-section-2 .name-recipes-h2,
+    .recipes-section-3 .name-recipes-h2{
+        margin-top: 30px;
+    }
+    .recipes-section-1,
+    .recipes-section-2,
+    .recipes-section-3{
+        padding-bottom: 70px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .contacts-section-1{
+        padding-top: 15px;
+    }
+    .contacts-section-2 h2{
+        font-size: 21px;
+    }
+    .name-recipes-h2{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .icn-hexagon-recipes-1{
+        width: 290px;
+        height: 250px;
+        background: url(../images/page-recipes/recipes-1.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .icn-hexagon-recipes-2{
+        position: relative;
+        width: 290px;
+        height: 250px;
+        background: url(../images/page-recipes/recipes-2.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .icn-hexagon-recipes-3{
+        width: 290px;
+        height: 250px;
+        background: url(../images/page-recipes/recipes-3.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .ship:nth-child(3n),
+    .ship{
+        margin-right: 0;
+    }
+    .fleet-section-h2{
+        font-size: 21px;
+        margin-top: 30px;
+    }
+    .title-news{
+        font-size: 21px;
+    }
+    .places-fishing{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .descr-sect{
+        font-size: 12px;
+    }
+    .product-type{
+        min-height: 400px;
+        border-bottom: 2px solid #f2fafc;
+        padding-bottom: 30px;
+    }
+    .pr-t:last-child .product-type{
+        border-bottom: 0;
+    }
+    .header-content-bottom h3{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .header-view-prod p{
+        font-size: 12px;
+        padding: 0;
+    }
+    .wr-recipes-card{
+        float: none !important;
+        margin: 0 auto;
+    }
+    .name-latin-production{
+        font-size: 9px;
+    }
+    .name-production span{
+        font-size: 12px;
+    }
+    .icn-production{
+        background-size: 100%;
+        height: 80px;
+    }
+    .wr-production-card{
+        min-height: 140px;
+        border-bottom: 2px solid #f2fafc;
+        margin-right: 0;
+        padding-top: 35px;
+    }
+    .header-content-bottom small.production-small{
+        width: 100%;
+    }
+    .header-content-bottom h1{
+        font-size: 21px;
+        margin: 30px 0;
+    }
+    .header-content-bottom small{
+        font-size: 13px;
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+    .header-content-bottom{
+        padding-bottom: 80px;
+        padding-top: 0;
+    }
+    .depth-350,
+    .depth-1500,
+    .depth-2500{
+        padding-top: 30px;
+        margin-top: 0;
+    }
+    .depth-350{
+        padding-bottom: 80px;
+    }
+    .depth-1500{
+        padding-bottom: 20px;
+    }
+    .depth-2500{
+        padding-bottom: 50px;
+    }
+    .info-box{
+        margin: 0;
+    }
+    .info-name{
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    .info-description{
+        font-size: 12px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .name-news a{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .description-news{
+        margin-bottom: 40px;
+    }
+    .icn-hexagon-1,
+    .icn-hexagon-2,
+    .icn-hexagon-3 {
+        position: static;
+        width: 100%;
+        height: 150px;
+        background: none;
+        overflow: hidden;
+    }
+    .icn-hexagon-1{
+        background: url(../images/page-index/news-1.jpg) no-repeat center;
+    }
+    .icn-hexagon-2{
+        background: url(../images/page-index/news-2.jpg) no-repeat center;
+    }
+    .icn-hexagon-3{
+        background: url(../images/page-index/news-3.jpg) no-repeat center;
+    }
+    .depth-2500-h3{
+        font-size: 26px;
+        font-weight: bold;
+        padding: 0;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .wr-content-depth-2500 p{
+        font-size: 13px;
+    }
+    .wr-content-depth-2500 .descr p:last-child{
+        margin-bottom: 50px;
+    }
+    .address-footer{
+        padding: 0 20px;
+    }
+    .address-footer p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .fax{
+        display: inline-block;
+    }
+    .logo-footer{
+        margin-bottom: 30px;
+    }
+    .footter-content{
+        background: #11466b;
+        padding: 55px 0 25px;
+    }
+    .content-section-1{
+        font-size: 12px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .company-section-1{
+        padding-bottom: 50px;
+    }
+    .company-section-2{
+        padding: 25px 0 40px;
+    }
+    .company-section-2 h2{
+        font-size: 26px;
+    }
+    .wr-video-files, .wr-photo-gallery{
+        margin-right: 0;
+    }
+    .wr-img-video, .wr-img-gallery{
+        width: 290px;
+        margin: 0 auto;
+    }
+    .video-date, .photo-date{
+        margin-top: 20px;
+    }
+    .year-video{
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+    .header-content-bottom{
+        background: #fff url(../images/bg/wave-1.jpg) no-repeat center bottom;
+        background-size: 100% auto;
+    }
+}
+
+@media screen and {max-width: 360px){
+    .header-content-bottom{
+        background: url(../images/bg/wave-1-xs.png) no-repeat center bottom;
+        background-size: 100% auto;
+    }
+    .depth-350{
+        background: #e4f4f8 url(../images/bg/wave-2-xs.png) no-repeat center bottom;
+        background-size: 100% auto;
+    }
+    .view-production-section-1,
+    .contacts-section-1,
+    .recipes-section-1,
+    .photo-section-1,
+    .fleet-section-1,
+    .news-section-1{
+        background: #e4f4f8 url(../images/bg/wave-2-xs.png) no-repeat center bottom ;
+        background-size: 100% auto;
+    }
+    .recipes-section-2,
+    .video-section-2,
+    .photo-section-2,
+    .news-section-2,
+    .depth-1500{
+        background: #ceeaf1 url(../images/bg/wave-3-xs.png) no-repeat center bottom;
+        background-size: 100% auto;
+    .company-section-1{
+        background:  #e4f4f8 url(../images/bg/wave-2-xs.png) no-repeat center bottom;
+        background-size: 100% auto;
+    }
+    .photo-section-1,
+    .video-section-1{
+        background: #e4f4f8 url(../images/bg/wave-2-xs.png) no-repeat center bottom;
+        background-size: 100% auto;
+    }
+    .view-production-section-2{
+        background: #ceeaf1 url(../images/bg/wave-3-xs.png) no-repeat center bottom;
+        background-size: 100% auto;
+    }
+}
